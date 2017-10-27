@@ -1,0 +1,23 @@
+{
+  "name": "rest-api",
+  "version": "0.1.0",
+  "description": "Simple REST API",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongodb-uri": "^0.9.7",
+    "mongoose": "^4.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "rest"
+  ],
+  "author": "Artem",
+  "license": "MIT"
+}
